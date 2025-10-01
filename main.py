@@ -7,3 +7,6 @@ import pandas as pd
 from pathlib import Path
 import numpy as np
 
+# importing of the data
+datafile = "data/50_Startups.csv"
+dataset = pd.read_csv(datafile)
